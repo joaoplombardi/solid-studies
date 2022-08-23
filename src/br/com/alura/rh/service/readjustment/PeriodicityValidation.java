@@ -19,4 +19,5 @@ public class PeriodicityValidation implements ReadjustmentValidation {
             throw new ValidateException("Intervalo entre reajustes deve ser no mínimo 6 meses.");
         }
     }
+    
 }
