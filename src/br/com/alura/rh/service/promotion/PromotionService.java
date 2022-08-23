@@ -13,7 +13,7 @@ public class PromotionService {
             throw new ValidateException("Gerentes não podem ser promovidos!");
         }
 
-        if (goalHit){
+        if (goalHit) {
             employee.promote(currentJob.getNextJob());
         } else {
             throw new ValidateException("Funcionário não atingiu a meta!");
